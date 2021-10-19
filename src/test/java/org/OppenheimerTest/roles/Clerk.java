@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.OppenheimerTest.stepDefinition.Config;
+import org.OppenheimerTest.config.Config;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import io.restassured.RestAssured;
