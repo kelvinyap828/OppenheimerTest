@@ -1,5 +1,5 @@
 # OppenheimerTest
-## Framework used
+## Framework
 The test cases are managed and running in cucumber-testng framework, API calls are using Rest-Assured framework and UI automated in Selenium.
 
 ## Structure
