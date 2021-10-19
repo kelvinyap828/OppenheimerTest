@@ -2,7 +2,7 @@ package org.OppenheimerTest.roles;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.OppenheimerTest.config.Config;
+import org.OppenheimerTest.stepDefinition.Config;
 
 public class Governor {
 

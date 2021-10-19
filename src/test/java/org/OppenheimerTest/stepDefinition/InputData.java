@@ -5,7 +5,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.Response;
-import org.OppenheimerTest.config.Config;
 import org.OppenheimerTest.roles.Clerk;
 import org.OppenheimerTest.roles.Employee;
 import org.OppenheimerTest.utility.CommonFunction;
@@ -103,7 +102,7 @@ public class InputData {
     @Then("all the records are displayed")
     public void all_the_records_are_displayed() {
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#contents > div.m-4 > table")));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#contents > div.m-4")));
         WebElement table = driver.findElement(By.cssSelector("#contents > div.m-4 > table"));
         List<WebElement> tableRecords = table.findElements(By.tagName("tr"));
         List<Employee> csvRecords = CommonFunction.readCsvFile(Config.dateFilePath);

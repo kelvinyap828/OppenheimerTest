@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"org.OppenheimerTest.stepDefinition"},
         features = {"src/test/resources/feature"},
         plugin = { "pretty", "html:target/cucumber-reports.html" },
-        tags = "@All"
+        tags = "@InputData"
 )
 public class TestRunner extends AbstractTestNGCucumberTests{
 

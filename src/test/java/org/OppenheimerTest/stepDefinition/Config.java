@@ -1,4 +1,4 @@
-package org.OppenheimerTest.config;
+package org.OppenheimerTest.stepDefinition;
 
 import io.cucumber.java.Before;
 import io.restassured.RestAssured;
