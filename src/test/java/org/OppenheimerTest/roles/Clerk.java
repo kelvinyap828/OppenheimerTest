@@ -3,7 +3,6 @@ package org.OppenheimerTest.roles;
 import io.restassured.response.Response;
 
 import java.io.File;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
@@ -11,9 +10,7 @@ import java.util.ListIterator;
 import org.OppenheimerTest.stepDefinition.Config;
 import org.json.JSONObject;
 import org.json.JSONArray;
-import org.json.JSONString;
 import io.restassured.RestAssured;
-import io.restassured.specification.RequestSpecification;
 
 public class Clerk {
 

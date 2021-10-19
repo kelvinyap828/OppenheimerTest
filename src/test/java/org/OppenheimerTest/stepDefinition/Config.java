@@ -1,12 +1,7 @@
 package org.OppenheimerTest.stepDefinition;
 
-import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.restassured.RestAssured;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.concurrent.TimeUnit;
 
 public class Config {
 

@@ -59,7 +59,7 @@ public class DispenseTaxRelief {
     public void dispense_page_is_displayed() {
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='display-4 font-weight-bold']")));
-        Assert.assertEquals(driver.getCurrentUrl(), "http://localhost:8080/dispense");
+        Assert.assertEquals(driver.getCurrentUrl(), Config.baseUri + "/dispense");
 
         WebElement dispenseMessage = driver.findElement(By.xpath("//div[@class='display-4 font-weight-bold']"));
         Assert.assertEquals(dispenseMessage.getText(), "Cash dispensed");

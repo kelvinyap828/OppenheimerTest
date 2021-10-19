@@ -32,7 +32,6 @@ import java.util.stream.Collectors;
 
 public class EndToEnd {
 
-    Config config = new Config();
     WebDriverWait wait;
     WebDriver driver = new ChromeDriver();
     Employee employee;

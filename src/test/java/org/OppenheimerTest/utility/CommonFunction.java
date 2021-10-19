@@ -1,9 +1,6 @@
 package org.OppenheimerTest.utility;
 
 import org.OppenheimerTest.roles.Employee;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -47,17 +44,7 @@ public class CommonFunction {
 
         return employee;
     }
-/*
-    public static WebDriver getDriver(){
 
-        System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\driver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://localhost:8080");
-        driver.manage().window().maximize();
-
-        return driver;
-    }
-*/
     public static List<Employee> readCsvFile(String filePath){
 
         List<Employee> dataListFromFile = null;

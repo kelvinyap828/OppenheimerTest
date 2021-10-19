@@ -1,14 +1,8 @@
 package org.OppenheimerTest.utility;
 
-
-import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.Collectors;
-
 import org.OppenheimerTest.roles.Employee;
-
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.time.LocalDate;
