@@ -7,16 +7,16 @@ The test cases are managed and running in cucumber-testng framework, API calls a
 Since this is to simulate the scenario where there are three individual working on the working class heroes data in the application
 Therefore 4 roles are created in and action of each roles are defined
 * Bookkeeper, will only calls
- * /calculator/taxRelief
- * /calculator/taxReliefSummary
+  * /calculator/taxRelief
+  * /calculator/taxReliefSummary
 * Clerk, will only calls
- * /calculator/insert
- * /calculator/insertMultiple
- * /calculator/uploadLargeFileForInsertionToDatabase
+   * /calculator/insert
+   * /calculator/insertMultiple
+   * /calculator/uploadLargeFileForInsertionToDatabase
 * Employee (working class hero)
- * holds the required data for execution
+   * holds the required data for execution
 * Governor, will only calls
- * /dispense
+   * /dispense
 
 ### Feature & Step Definition
 As there are 3 features mentioned, 3 feature files are created
