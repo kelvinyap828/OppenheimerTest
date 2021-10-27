@@ -1,5 +1,5 @@
 # OppenheimerTest
-## Framework used
+## Framework
 The test cases are managed and running in cucumber-testng framework, API calls are using Rest-Assured framework and UI automated in Selenium.
 
 ## Structure
@@ -7,16 +7,16 @@ The test cases are managed and running in cucumber-testng framework, API calls a
 Since this is to simulate the scenario where there are three individual working on the working class heroes data in the application
 Therefore 4 roles are created in and action of each roles are defined
 * Bookkeeper, will only calls
-** /calculator/taxRelief
-** /calculator/taxReliefSummary
+  * /calculator/taxRelief
+  * /calculator/taxReliefSummary
 * Clerk, will only calls
-** /calculator/insert
-** /calculator/insertMultiple
-** /calculator/uploadLargeFileForInsertionToDatabase
+   * /calculator/insert
+   * /calculator/insertMultiple
+   * /calculator/uploadLargeFileForInsertionToDatabase
 * Employee (working class hero)
-** holds the required data for execution
+   * holds the required data for execution
 * Governor, will only calls
-** /dispense
+   * /dispense
 
 ### Feature & Step Definition
 As there are 3 features mentioned, 3 feature files are created
@@ -27,6 +27,13 @@ As there are 3 features mentioned, 3 feature files are created
 And each feature has a designated step definition, to the functional test of each individual feature
 
 To extend the coverage, a E2E feature file is also created with its designated step definition.
+
+### Utility
+* Generator - To generate all the data required
+* Convertor - To convert all values required in execution for assertion or request call
+* RobotHelper - To handle window popup
+* TaxReliefCalculator - To handle the calculation for each employee generated
+* CommonFunction - To include all the method that was being used frequently
 
 ### Config
 This is to keep a central value to ease up execution in case of changing environment, folder structure and etc.
