@@ -35,7 +35,7 @@ import java.util.stream.Collectors;
 public class EndToEnd {
 
     WebDriverWait wait;
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver;
     Employee employee;
     List<Employee> employeeList = new ArrayList<>();
     Response respInsert, respInsertMultiple;

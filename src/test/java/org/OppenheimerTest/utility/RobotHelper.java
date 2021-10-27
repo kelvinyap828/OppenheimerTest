@@ -14,6 +14,7 @@ public class RobotHelper {
         StringSelection str = new StringSelection(directory);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
 
+        robot.delay(250);
         // Ctrl+V
         robot.keyPress(KeyEvent.VK_CONTROL);
         robot.keyPress(KeyEvent.VK_V);
@@ -22,6 +23,7 @@ public class RobotHelper {
 
         // Enter
         robot.keyPress(KeyEvent.VK_ENTER);
+        robot.delay(250);
         robot.keyRelease(KeyEvent.VK_ENTER);
 
     }
